@@ -1,0 +1,37 @@
+. .App {
+3. text-align: center;
+4. }
+5.
+6. .App-logo {
+7. height: 40vmin;
+8. pointer-events: none;
+9. }
+10.
+11. @media (prefers-reduced-motion: no-preference) {
+12. .App-logo {
+13. animation: App-logo-spin infinite 20s linear;
+14. }
+15. }
+16.
+17. .App-header {
+18. background-color: #282c34;
+19. min-height: 100vh;
+20. display: flex;
+21. flex-direction: column;
+22. align-items: center;
+23. justify-content: center;
+24. font-size: calc(10px + 2vmin);
+25. color: white;
+26. }
+27.
+28. .App-link {
+29. color: #61dafb;
+30. }
+31.
+32. @keyframes App-logo-spin {
+33. from {
+34. transform: rotate(0deg);
+35. }
+36. to {
+37. transform: rotate(360deg);
+38. }
